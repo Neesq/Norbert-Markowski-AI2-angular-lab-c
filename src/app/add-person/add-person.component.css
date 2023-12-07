@@ -1,0 +1,30 @@
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+.form-row input {
+  width: 60%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  width: 70%;
+}
+
+form button {
+  width: 33%;
+  align-self: center;
+  padding: 5px;
+}

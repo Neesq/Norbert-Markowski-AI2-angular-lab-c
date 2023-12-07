@@ -1,0 +1,41 @@
+.details-container div {
+  padding: 10px;
+}
+
+.person {
+  border: 1px solid black;
+  width: 20%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.person h2 {
+  justify-self: center;
+  align-self: center;
+}
+
+.person .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info div {
+  padding: 0;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.adress {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0;
+}
+
+.adress div {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

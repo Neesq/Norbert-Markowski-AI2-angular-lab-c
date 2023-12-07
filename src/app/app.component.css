@@ -1,0 +1,42 @@
+.headerAppComponent {
+  background-color: blue;
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  padding: 0 20px;
+}
+
+.headerAppComponent a {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.headerAppComponent h1 {
+  font: bold;
+  font-size: 2em;
+  color: white;
+}
+
+.appCompontentContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.appCompontentContainer div.routerAppComponent {
+  flex: 1 0 auto;
+}
+
+.appCompontentContainer footer.footerAppComponent {
+  align-self: center;
+  background-color: gray;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 4px;
+}
